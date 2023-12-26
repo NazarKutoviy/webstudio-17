@@ -1,0 +1,82 @@
+:root {
+  --brand-color: #2196f3;
+  --primary-color: #000000;
+  --text-color: #757575;
+  --text-2-color: #212121;
+  --title-color: #ffffff;
+  --bg-light: #ececec;
+  --bg-footer: #2f303a;
+  --bg-picture: #eeeeee;
+}
+body {
+  font-family: Roboto;
+}
+ul,
+ol {
+  padding-left: 0;
+  list-style: none;
+}
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  outline: solid chartreuse;
+}
+
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+}
+.header-box {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+}
+.header-list {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.header-logo {
+  margin-right: 43px;
+}
+.header-link {
+  text-decoration: none;
+}
+.portfolio {
+  display: flex;
+  flex-direction: column;
+}
+.portfolio-list-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio-item-menu {
+  display: flex;
+  justify-content: center;
+}
+.portfolio-btn {
+  padding: 6px 25px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.footer {
+  background-color: #2f303a;
+}

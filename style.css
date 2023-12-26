@@ -1,0 +1,157 @@
+:root {
+  --brand-color: #2196f3;
+  --primary-color: #000000;
+  --text-color: #757575;
+  --text-2-color: #212121;
+  --title-color: #ffffff;
+  --bg-light: #ececec;
+  --bg-dark: #f5f4fa;
+  --bg-footer: #2f303a;
+}
+body {
+  font-family: Roboto;
+}
+ul,
+ol {
+  padding-left: 0;
+  list-style: none;
+}
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  outline: solid chartreuse;
+}
+
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+}
+.header-box {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+}
+.header-list {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.header-logo {
+  margin-right: 43px;
+}
+.header-link {
+  text-decoration: none;
+}
+.screen_saver {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.screen_saver-title {
+  display: flex;
+  justify-content: center;
+}
+.screen_saver-btn {
+  display: flex;
+  justify-content: center;
+  width: 216px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+.our_advantages {
+  display: flex;
+  flex-direction: row;
+}
+.our_advantages-list {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.antenna::before {
+  content: "";
+  display: block;
+  background-image: url("./img/Group 1.png");
+  width: 270px;
+  height: 120px;
+}
+.clock::before {
+  content: "";
+  display: block;
+  background-image: url("./img/Group 2.png");
+  width: 270px;
+  height: 120px;
+}
+.computer::before {
+  content: "";
+  display: block;
+  background-image: url("./img/Group 3.png");
+  width: 270px;
+  height: 120px;
+}
+.astronaut::before {
+  content: "";
+  display: block;
+  background-image: url("./img/Group 4.png");
+  width: 270px;
+  height: 120px;
+}
+.What_we_do {
+  display: flex;
+  flex-direction: column;
+}
+.What_we_do-list {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  padding-left: 0px;
+}
+.What_we_do-item {
+  display: flex;
+  flex-direction: row;
+}
+.What_we_do-img {
+  width: 370px;
+  height: 294px;
+}
+.What_we_do-title {
+  display: flex;
+  justify-content: center;
+}
+.our_team {
+  display: flex;
+  flex-direction: column;
+}
+.our_team-list {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding-left: 0px;
+}
+.our_team-title-1 {
+  display: flex;
+  justify-content: center;
+}
+.our_team-img {
+  width: 270px;
+  height: 260px;
+}
+
+.our_advantages {
+  padding-bottom: 0px;
+}
+.footer {
+  background-color: #2f303a;
+}
